@@ -352,3 +352,6 @@ def run_full_analysis(filepath, ext, lightweight=False):
         "total_missing": int(df.isnull().sum().sum()),
         "preview": df.head(5).to_dict(orient='records')
     }
+
+# Adding IsolationForest logic
+
