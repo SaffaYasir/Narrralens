@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#6366f1" />
+    <meta name="description" content="NarraLens — AI-Powered Data Narrative Engine" />
+    <title>NarraLens — AI Data Stories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+      /* Inline SVG favicon as data URI via JS */
+    </style>
+    <script>
+      // Inject SVG favicon dynamically
+      const svgFavicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#6366f1"/>
+            <stop offset="100%" stop-color="#f0abfc"/>
+          </linearGradient>
+        </defs>
+        <rect width="32" height="32" rx="8" fill="url(#g)"/>
+        <text x="16" y="22" font-size="18" text-anchor="middle" fill="white">📡</text>
+      </svg>`;
+      const blob = new Blob([svgFavicon], {type: 'image/svg+xml'});
+      const link = document.createElement('link');
+      link.rel = 'icon'; link.href = URL.createObjectURL(blob);
+      document.head.appendChild(link);
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

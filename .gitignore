@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+backend/uploads/
+backend/reports/
+backend/users.json
+.DS_Store
+build/
+IGNORE
