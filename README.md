@@ -99,8 +99,4 @@ narrralens/
 | POST | `/api/chat/:id`    | Ask questions (fast Haiku) |
 
 ---
-
-## 💡 Tips
-- **Large files (>10MB)**: Analysis samples 10K rows for chat; full data used for report
-- **Custom story**: POST preferences `{tone, focus, detail, custom_note}` to report endpoint  
-- **Auth is optional**: The tool works without login; accounts just enable future history features
+Demo Video Link: https://drive.google.com/file/d/1onEnNRydCoLHg_a4Ft39UPPm4cpjD1OU/view?usp=drive_link
